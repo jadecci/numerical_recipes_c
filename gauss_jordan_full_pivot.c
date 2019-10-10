@@ -34,16 +34,12 @@ void gaussj(float **a, int n, float **b, int m){
 			}
 		}
 		++(i_piv[i_col]);
-		//fprintf(stdout, "Reducing column %d...\n", i_col+1);
 
 		// swap rows to put pivots on the diagonal
 		if (i_row != i_col){
 			for (j=0; j<n; j++) SWAP(a[i_row][j], a[i_col][j]);
 			for (j=0; j<n; j++) SWAP(b[i_row][j], b[i_col][j]);
 		}
-		//fprintf(stdout, "\nSwapped matrix A:\n");
-		//print_2d_matrix(a, 4, 4);
-        //print_2d_matrix(b, 4, 5);
         
         index_r[i] = i_row; // original row of pivot
         index_c[i] = i_col; // actual column/row of pivot
