@@ -22,6 +22,22 @@ void print_2d_matrix(float **a, int n, int m){
     }
 }
 
+void print_vec(float *a, int n){
+// print a vector of length n
+    int i;
+
+    for (i=0; i<n; i++) fprintf(stdout, "%.2f   ", a[i]);
+    fprintf(stdout, "\n");
+}
+
+void print_vec_int(int *a, int n){
+// print an int vector of length n
+    int i;
+
+    for (i=0; i<n; i++) fprintf(stdout, "%d   ", a[i]);
+    fprintf(stdout, "\n");
+}
+
 void matrix_multiply(float **a, float **b, int n, int m1, int m2, float **c){
 // matrix multiplication between A (m1xn) and B (nxm2)
 // results stored in matrix C (m1xm2)
@@ -49,6 +65,14 @@ void copy_matrix_col(float **a, float **b, int n, int start, int stop){
             b[i][j_b] = a[i][j];
         }
     }
+}
+
+void fill_index_vec(int *index, int n){
+// fill in an index vector with elements 1 to n
+    int i;
+
+    for (i=0; i<n; i++) index[i] = i;
+
 }
         
 
