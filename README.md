@@ -15,7 +15,7 @@ The codes included in this repository, in correspondence to the book's chapters:
 
 - Gauss-Jordan Elimination with full pivoting: `gauss_jordan_full_pivot.c`
 
-- LU Decomposition
+- LU Decomposition: `LU_decomposition.c`
 
 - Cholesky Decomposition
 
