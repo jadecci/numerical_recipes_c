@@ -18,7 +18,7 @@ The codes included in this repository, in correspondence to the book's chapters:
 
 **Chapter 2 Solution of Linear Algebraic Equations**
 
-Notes for this chapter is availablbe at <http://jadecci.github.io/notes/C-Chpt2.html>
+Notes for this chapter are availablbe at <http://jadecci.github.io/notes/C-Chpt2.html>
 
 - Gauss-Jordan Elimination with full pivoting: `gauss_jordan_full_pivot.c`
 
@@ -26,7 +26,7 @@ Notes for this chapter is availablbe at <http://jadecci.github.io/notes/C-Chpt2.
 
 - Cholesky Decomposition: `cholesky_decomposition.c`
 
-- QR Decomposition
+- To add in the future: Singular Value Decomposition, QR Decomposition
 
 **Chapter 3 Interpolation and Extrapolation**
 
@@ -54,7 +54,7 @@ Notes for this chapter is availablbe at <http://jadecci.github.io/notes/C-Chpt2.
 
 - Monte Carlo Integration
 
-**Chapter Minimisation or Maximisation of Functions**
+**Chapter 10 Minimisation or Maximisation of Functions**
 
 - Golden Section Search (1D)
 
