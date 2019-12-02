@@ -1,7 +1,9 @@
 # \<Numerical Recipes in C> Codes with Examples
 
-This repository contains codes from the book \<Numerical Recipes in C> with my comments. The codes are contained in a function, which is called in the
+This repository contains codes from the book **\<Numerical Recipes in C>** with my comments. The codes are contained in a function, which is called in the
 main function with example inputs. All codes can be compiled and run without input parameter.
+
+A set of notes for each chapter/topic is also available on my [Github.io blog](http://jadecci.github.io).
 
 Note that the original codes from the book uses some tricks with pointers so that indices could start from `1` instead of `0` (Why!). Since I prefer
 0-indexing for C/C++, all codes in this repository have indicies starting from `0`. *You are welcome!*
@@ -15,6 +17,8 @@ For MacOS, the codes can be compiled by `clang util.c file_to_compile.c -o progr
 The codes included in this repository, in correspondence to the book's chapters:
 
 **Chapter 2 Solution of Linear Algebraic Equations**
+
+Notes for this chapter is availablbe at <http://jadecci.github.io/notes/C-Chpt2.html>
 
 - Gauss-Jordan Elimination with full pivoting: `gauss_jordan_full_pivot.c`
 
