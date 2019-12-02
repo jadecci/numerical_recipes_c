@@ -43,7 +43,7 @@ void gaussj(float **a, int n, float **b, int m){
         
         index_r[i] = i_row; // original row of pivot
         index_c[i] = i_col; // actual column/row of pivot
-        if (a[i_col][i_col] == 0.0) nrerror("gauss_jordan_full_pivot: Singular matrix");
+        if (a[i_col][i_col] == 0.0) nrerror("gaussj: Singular matrix");
         
         // divide row by pivot
         // linear combination of rows

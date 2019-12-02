@@ -77,10 +77,6 @@ void ludcmp(float **a, int n, int *index){
             curr = 1.0 / a[j][j];
             for (i=j+1; i<n; i++) a[i][j] *= curr;
         }
-
-        //fprintf(stdout, "Step %d Divided by pivot \n", j);
-        //print_2d_matrix(a, 4, 4);
-        //fprintf(stdout, "\n");
     }
 }
 
@@ -123,10 +119,7 @@ void lubksb(float **a, int n, int *index, float b[]){
 int main(){
 	// define inputs
 	float *a[] = {(float[]){2, 1, 3, 4}, (float[]){10, 0, 3, 0}, (float[]){5, -3, 0, 1}, (float[]){2, 2, 3, 3}};
-	float b[4] = {44, -4, 5, 34};
-    //float *c[] = {(float[]){2, 1, 3, 4}, (float[]){10, 0, 3, 0}, (float[]){5, -3, 0, 1}, (float[]){2, 2, 3, 3}}; // stores A
-    //float *d[] = {(float[]){0, 0, 0, 0}, (float[]){0, 0, 0, 0}, (float[]){0, 0, 0, 0}, (float[]){0, 0, 0, 0}}; // to hold A inverse later
-    //float *e[] = {(float[]){0, 0, 0, 0}, (float[]){0, 0, 0, 0}, (float[]){0, 0, 0, 0}, (float[]){0, 0, 0, 0}}; // to hold results later
+	float b[4] = {44, -4, 5, -1};
     int index[4];
 
     // create the index vector
