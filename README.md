@@ -3,6 +3,9 @@
 This repository contains codes from the book \<Numerical Recipes in C> with my comments. The codes are contained in a function, which is called in the
 main function with example inputs. All codes can be compiled and run without input parameter.
 
+Note that the original codes from the book uses some tricks with pointers so that indices could start from `1` instead of `0` (Why!). Since I prefer
+0-indexing for C/C++, all codes in this repository have indicies starting from `0`. *You are welcome!*
+
 ## Usage
 
 For MacOS, the codes can be compiled by `clang util.c file_to_compile.c -o programme`. The compiled code can be then run by `./programme`.
