@@ -4,6 +4,7 @@
 void nrerror(char error_text[]);
 
 void print_2d_matrix(float **a, int n, int m);
+void print_2d_matrix_replaceDiag(float **a, int n, int m, float *p);
 void print_vec(float *a, int n);
 void print_vec_int(int *a, int n);
 

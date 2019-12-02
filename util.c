@@ -22,6 +22,20 @@ void print_2d_matrix(float **a, int n, int m){
     }
 }
 
+void print_2d_matrix_replaceDiag(float **a, int n, int m, float *p){
+// print a 2D matrix of size nxm, replacing the diagonal values with elements in p
+// original matrix A is not modified
+    int i, j;
+    
+    for (i=0; i<n; i++){
+        for (j=0; j<m; j++){
+            if (i==j) fprintf(stdout, "%.2f    ", p[i]);
+            else fprintf(stdout, "%.2f    ", a[i][j]);
+        }
+        fprintf(stdout, "\n");
+    }
+}
+
 void print_vec(float *a, int n){
 // print a vector of length n
     int i;
