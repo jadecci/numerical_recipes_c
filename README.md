@@ -17,7 +17,7 @@ The codes included in this repository, in correspondence to the book's chapters:
 
 - LU Decomposition: `LU_decomposition.c`
 
-- Cholesky Decomposition: `Cholesky_decomposition.c`
+- Cholesky Decomposition: `cholesky_decomposition.c`
 
 - QR Decomposition
 
