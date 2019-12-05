@@ -11,6 +11,7 @@ void print_vec_int(int *a, int n);
 void matrix_multiply(float **a, float **b, int n, int m1, int m2, float **c);
 void copy_matrix_col(float **a, float **b, int n, int start, int stop);
 void fill_index_vec(int *index, int n);
+void fill_rand_vec(float *index, int n, int min, int max);
 
 
 #endif /* _UTILS_H_ */

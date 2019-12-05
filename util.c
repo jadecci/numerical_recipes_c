@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stddef.h>
 #include <stdlib.h>
+#include <math.h>
 
 void nrerror(char error_text[]){
 // to show run-time error messages
@@ -86,7 +87,14 @@ void fill_index_vec(int *index, int n){
     int i;
 
     for (i=0; i<n; i++) index[i] = i;
+}
 
+void fill_rand_vec(float *index, int n, int min, int max){
+// fill in a vector with random elements in the range min to max
+// srand should be set up before this function is called
+    int i;
+
+    for (i=0; i<n; i++) index[i] = min + rand() % (max - min + 1);
 }
         
 

@@ -86,7 +86,9 @@ Notes for this chapter are availablbe at <http://jadecci.github.io/notes/C-Chpt2
 
 **Chapter 14 Statistical Description of Data**
 
-- Moments (mean, variance, skewness, etc.)
+Notes for this chapter are available at <http://jadecci.github.io/notes/C-Chpt14.html>
+
+- Moments (mean, variance, skewness, etc.): `chpt14_moments.c`
 
 - Comparing Distributions
 
