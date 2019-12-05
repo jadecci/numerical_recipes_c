@@ -119,7 +119,7 @@ void lubksb(float **a, int n, int *index, float b[]){
 int main(){
 	// define inputs
 	float *a[] = {(float[]){2, 1, 3, 4}, (float[]){10, 0, 3, 0}, (float[]){5, -3, 0, 1}, (float[]){2, 2, 3, 3}};
-	float b[4] = {44, -4, 5, -1};
+	float b[4] = {44, -4, 5, 34};
     int index[4];
 
     // create the index vector

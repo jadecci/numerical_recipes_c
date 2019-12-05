@@ -20,11 +20,11 @@ The codes included in this repository, in correspondence to the book's chapters:
 
 Notes for this chapter are availablbe at <http://jadecci.github.io/notes/C-Chpt2.html>
 
-- Gauss-Jordan Elimination with full pivoting: `gauss_jordan_full_pivot.c`
+- Gauss-Jordan Elimination with full pivoting: `chpt2_gauss_jordan_full_pivot.c`
 
-- LU Decomposition: `LU_decomposition.c`
+- LU Decomposition: `chpt2_LU_decomposition.c`
 
-- Cholesky Decomposition: `cholesky_decomposition.c`
+- Cholesky Decomposition: `chpt2_cholesky_decomposition.c`
 
 - To add in the future: Singular Value Decomposition, QR Decomposition
 
