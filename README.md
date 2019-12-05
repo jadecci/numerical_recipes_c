@@ -90,9 +90,7 @@ Notes for this chapter are available at <http://jadecci.github.io/notes/C-Chpt14
 
 - Moments (mean, variance, skewness, etc.): `chpt14_moments.c`
 
-- Comparing Distributions
-
-- Contigency Table Analysis
+- Distribution comparisons: Student's t-test, F-test, Chi-Square test, Kolmogorov-Smirnov test
 
 - Linear Correlation
 
